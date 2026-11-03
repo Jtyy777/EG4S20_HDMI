@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "source": "15:33 的 phy_1（P-1c 之前）。该报告已被 16:42 这轮 P&R 覆盖，数值来自当时的记录",
+    "kind": "phy",
+    "git_state": "A 方案（param_cdc）+ P1（img_scaler 乘法器复用）已完成，P-1c 未做",
+    "note": "只用于判断 P-1c 是否把读使能落到 BRAM 原生 CE 上，不作为性能基线"
+  },
+  "top": {
+    "lut": 11437,
+    "reg": 6287,
+    "bram": 27,
+    "dsp": 11
+  },
+  "u_img_scaler": {
+    "le": 1565,
+    "lut": 1264,
+    "ripple": 283,
+    "seq": 798,
+    "bram": 9,
+    "dsp": 2
+  },
+  "u_param_cdc": {
+    "le": 17,
+    "lut": 4,
+    "ripple": 0,
+    "seq": 16,
+    "bram": 0,
+    "dsp": 0
+  }
+}
